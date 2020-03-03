@@ -53,5 +53,7 @@ var server = app.listen(3001,'localhost', function () {
     var port = server.address().port
    
     console.log("应用实例，访问地址为 http://%s:%s", host, port)
+    console.log("应用实例，访问地址为 http://%s:%s", host, port)
+    console.log("应用实例，访问地址为 http://%s:%s", host, port)
    
   })
