@@ -5,7 +5,7 @@ const cheerio = require('cheerio')
 const fs = require('fs')
 const app = express()
 
-app.get('/',function(req,res) {
+app.get('/abc',function(req,res) {
   //get用query接收，post用body（学要安装另外模块）
   const q = req.query.q
   const md5Value = utility.md5(q)
