@@ -44,6 +44,8 @@ app.get('/',function(req,res) {
     })
   }
   console.log(items.length)
+    console.log(items.length)
+	  console.log(items.length)
   // console.log(111)
 // })
 
