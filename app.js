@@ -46,7 +46,7 @@ app.get('/abc',function(req,res) {
   console.log(items.length)
     console.log(items.length)
 	  console.log(items.length)
-  console.log(11199999999999999)
+  console.log('dev')
 // })
 
 var server = app.listen(3001,'localhost', function () {
